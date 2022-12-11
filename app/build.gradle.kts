@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "com.hadiyarajesh.composetemplate"
+    namespace = "com.hadiyarajesh.compose_exoplayer"
     compileSdk = 33
 
     defaultConfig {
-        applicationId = "com.hadiyarajesh.composetemplate"
+        applicationId = "com.hadiyarajesh.compose_exoplayer"
         minSdk = 21
         targetSdk = 33
         versionCode = 1
@@ -54,10 +54,7 @@ android {
 object LibVersion {
     const val composeCompilerVersion = "1.3.2"
     const val navigationCompose = "2.5.2"
-    const val retrofitVersion = "2.9.0"
-    const val moshiVersion = "1.13.0"
-    const val coilVersion = "2.2.2"
-    const val flowerVersion = "3.1.0"
+    const val media3Version = "1.0.0-beta03"
 }
 
 dependencies {
@@ -75,20 +72,8 @@ dependencies {
     implementation("com.google.dagger:hilt-android:${rootProject.extra["hiltVersion"]}")
     kapt("com.google.dagger:hilt-android-compiler:${rootProject.extra["hiltVersion"]}")
 
-    implementation("com.squareup.retrofit2:retrofit:${LibVersion.retrofitVersion}")
-    implementation("com.squareup.retrofit2:converter-moshi:${LibVersion.retrofitVersion}")
-    implementation("com.squareup.okhttp3:logging-interceptor:4.10.0")
-
-    implementation("com.squareup.moshi:moshi:${LibVersion.moshiVersion}")
-    kapt("com.squareup.moshi:moshi-kotlin-codegen:${LibVersion.moshiVersion}")
-
-    implementation("io.coil-kt:coil-compose:${LibVersion.coilVersion}") {
-        because("An image loading library for Android backed by Kotlin Coroutines")
-    }
-
-    implementation("io.github.hadiyarajesh.flower-retrofit:flower-retrofit:${LibVersion.flowerVersion}") {
-        because("Flower simplifies networking and database caching on Android/Multiplatform")
-    }
+    implementation("androidx.media3:media3-exoplayer:${LibVersion.media3Version}")
+    implementation("androidx.media3:media3-ui:${LibVersion.media3Version}")
 
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.4")

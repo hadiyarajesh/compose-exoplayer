@@ -1,7 +1,7 @@
-package com.hadiyarajesh.composetemplate.ui.navigation
+package com.hadiyarajesh.compose_exoplayer.ui.navigation
 
 import androidx.annotation.DrawableRes
-import com.hadiyarajesh.composetemplate.R
+import com.hadiyarajesh.compose_exoplayer.R
 
 sealed class TopLevelDestination(
     val title: String,

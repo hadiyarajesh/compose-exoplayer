@@ -1,8 +1,8 @@
-package com.hadiyarajesh.composetemplate.ui.home
+package com.hadiyarajesh.compose_exoplayer.ui.home
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
-import com.hadiyarajesh.composetemplate.repository.HomeRepository
+import com.hadiyarajesh.compose_exoplayer.repository.HomeRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import javax.inject.Inject
 

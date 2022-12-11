@@ -1,4 +1,4 @@
-package com.hadiyarajesh.composetemplate
+package com.hadiyarajesh.compose_exoplayer
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

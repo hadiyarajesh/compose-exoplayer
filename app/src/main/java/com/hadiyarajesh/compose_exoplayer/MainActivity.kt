@@ -1,9 +1,9 @@
-package com.hadiyarajesh.composetemplate
+package com.hadiyarajesh.compose_exoplayer
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
-import com.hadiyarajesh.composetemplate.ui.ComposeTemplateApp
+import com.hadiyarajesh.compose_exoplayer.ui.ComposeTemplateApp
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

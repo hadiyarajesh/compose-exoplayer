@@ -1,4 +1,4 @@
-package com.hadiyarajesh.composetemplate
+package com.hadiyarajesh.compose_exoplayer
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
