@@ -10,7 +10,7 @@ import com.hadiyarajesh.compose_exoplayer.ui.home.HomeScreen
 import com.hadiyarajesh.compose_exoplayer.ui.home.HomeViewModel
 
 @Composable
-fun ComposeTemplateNavigation(
+fun ComposeExoplayerNavigation(
     modifier: Modifier = Modifier,
     navController: NavHostController,
 ) {
